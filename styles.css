@@ -1,3 +1,4 @@
+/* RESET RULE */
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +9,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+/* END RESET RULE*/
+
+
+
 /* BRAND COLORS
 
 Blue #0b93d1
@@ -16,5 +21,13 @@ Orange #f59730
 Red #d7242e
 Black #000000
 White #eeeeee
+
+*/
+
+
+/* BRAND FONTS
+
+font-family: 'Signika', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 */
