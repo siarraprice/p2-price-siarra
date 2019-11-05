@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+/* BRAND COLORS
+
+Blue #0b93d1
+Yellow #f8ea3a
+Orange #f59730
+Red #d7242e
+Black #000000
+White #eeeeee
+
+*/
