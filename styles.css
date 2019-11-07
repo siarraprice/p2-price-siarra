@@ -26,6 +26,7 @@ font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
@@ -37,4 +38,155 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 html {
 	font-family: 'Roboto', sans-serif;
 	background: #eeeeee;
+}
+
+main {
+	padding: 2rem;
+}
+
+h1, h2, h3 {
+	font-family: 'Signika', sans-serif;
+}
+
+h1 {
+	color: #d7242e;
+}
+
+h2 {
+	color: #f59730;
+}
+
+h4 {
+	color: #0b93d1;
+}
+
+
+/* NAV */
+
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #eeeeee;
+	background-image: linear-gradient(
+		to left,
+		#0b93d1, #f8ea3a, #f59730, #d7242e
+		);
+	font-family: 'Signika', sans-serif;
+	padding: 2vh 0;
+}
+
+.logo img {
+	max-height: 60px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.nav-links li {
+	list-style: none;
+}
+
+.nav-links a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.burger {
+	display: none;
+}
+
+.burger div {
+	width: 30px;
+	height: 3px;
+	background-color: #000000;
+	margin: 6px;
+}
+
+
+@media screen and (max-width: 2000px){
+	.nav-links {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 2000px){
+	.nav-links {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 760px){
+	header {
+		overflow-x: hidden;
+	}
+
+	.nav-links {
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: #eeeeee;
+		background-image: linear-gradient(
+			to left,
+			#0b93d1, #f8ea3a, #f59730, #d7242e
+			);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+	}
+
+	.nav-links li {
+		opacity: 0;
+	}
+
+	.burger {
+		display: block;
+	}
+}
+
+/* END NAV */
+
+
+
+
+footer {
+	background-color: #eeeeee;
+	background-image: linear-gradient(
+		to left,
+		#0b93d1, #f8ea3a, #f59730, #d7242e
+		);
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	padding: 2rem 0;
+}
+
+.footer-img img {
+	max-width: 50%;
+}
+
+.social {
+	padding: 1rem;
+}
+.social img {
+height: 40px;
+}
+
+.footer-contact {
+	text-align: left;
+	padding: 0 89px;
+}
+
+.footer-contact p {
+	padding-top: 0.25em;
+	font-weight: bolder;
 }
