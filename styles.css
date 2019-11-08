@@ -265,11 +265,6 @@ article {
 	padding: 2rem;
 }
 
-.button-holder {
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 2rem;
-}
 
 .main-info p {
 	padding: 1em 0 3em 0;
@@ -281,6 +276,19 @@ article {
 }
 
 /* -------- BUTTONS -------- */
+
+.button-holder {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.camps-button-holder {
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
 
 button {
 	font-family: 'Signika', sans-serif;
@@ -301,10 +309,17 @@ button {
 	background: #f59730;
 }
 
+.camp-btn {
+	margin: 0 auto;
+	background: #0b93d1;
+	width: 150px;
+}
+
 button:hover {
 	background: #000000;
 	transition: 0.3s;
 }
+
 
 /* -------- END BUTTONS -------- */
 
@@ -446,6 +461,16 @@ fieldset {
 }
 
 /* --------- END CONTACT FORM --------*/
+
+
+
+
+/* CAMPS HTML PAGE */
+
+#more1, #more2, #more3, #more4, #more5, #more6 {
+	display: none;
+}
+
 
 
 
