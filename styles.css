@@ -67,7 +67,7 @@ h4 {
 
 /* --------- NAV ----------- */
 
-@charset "UTF-8";
+
 .navigation {
   height: 80px;
   background: #0b93d1;
@@ -132,6 +132,7 @@ nav ul li ul li a {
   padding: 15px;
   line-height: 20px;
 }
+
 
 .nav-dropdown {
   position: absolute;
@@ -242,7 +243,6 @@ article {
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
-	overflow: hidden;
 	max-width: 100%;
 }
 
@@ -251,7 +251,15 @@ article {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%; }
+	height: 100%;
+}
+
+	@media screen and (min-width: 799px) {
+	  .embed-container {
+	    max-width: 949px;
+			margin: 0 auto;
+	  }
+	}
 
 .main-info {
 	padding: 2rem;
