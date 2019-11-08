@@ -24,3 +24,12 @@ const navSlide = () => {
 };
 
 navSlide();
+
+
+
+
+
+//backstretch images
+$("#hero1").backstretch("images/image1.png");
+
+$("#hero2").backstretch("images/image2.png");

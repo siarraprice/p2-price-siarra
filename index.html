@@ -13,6 +13,8 @@
 
 		<script src="js/html5shiv-printshiv.min.js"></script>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 		<link href="https://fonts.googleapis.com/css?family=Roboto|Signika:700&display=swap" rel="stylesheet">
 
 		<script src="https://kit.fontawesome.com/554da73d32.js" crossorigin="anonymous"></script>
@@ -68,14 +70,15 @@
 			<section class="main-info">
 				<h1>The Camp Rainbow Mission is...</h1>
 				<p>To provide free camping experiences to children undergoing treatment for, and survivors of, cancer and blood-related diseases and disorders. Through recreational and nurturing environments, campers and their families are provided with space to create positive memories, build self-esteem, make new friends and experience relief from the everyday stresses caused by their illness.</p>
-				<button type="button" name="button" class="red-btn">Learn More</button>
-				<button type="button" name="button" class="red-btn">Sign Up</button>
-				<button type="button" name="button" class="red-btn">Donate</button>
+
+				<div class="button-holder">
+					<button type="button" name="button" class="red-btn">Learn More</button>
+					<button type="button" name="button" class="red-btn">Sign Up</button>
+					<button type="button" name="button" class="red-btn">Donate</button>
+				</div>
 			</section>
 
-			<section class="heroimg">
-
-			</section>
+			<section class="heroimg" id="hero1"> </section>
 
 			<section class="main-camps">
 				<h2>The 2019 Camps</h2>
@@ -107,9 +110,15 @@
 					</tr>
 				</table>
 
-				<button type="button" name="button" class="orange-btn">Camp Details</button>
-				<button type="button" name="button" class="orange-btn">Register</button>
+				<div class="button-holder">
+					<button type="button" name="button" class="orange-btn">Camp Details</button>
+					<button type="button" name="button" class="orange-btn">Register</button>
+				</div>
 			</section>
+
+
+			<section class="heroimg" id="hero2"> </section>
+
 
 			<section class="jokes">
 				<h3>Smile Today!</h3>
@@ -158,10 +167,10 @@
 
 		</footer>
 
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="js/main.js"></script>
 		<script src="js/dropdownnav.js"></script>
+		<script src="js/backstretch.js"></script>
+		<script src="js/main.js"></script>
+
 
 	</body>
 

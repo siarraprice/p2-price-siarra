@@ -40,13 +40,16 @@ html {
 	background: #eeeeee;
 }
 
-main {
-	padding: 2rem;
+p {
+	max-width: 980px;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4 {
 	font-family: 'Signika', sans-serif;
 	font-size: 25px;
+	max-width: 980px;
+	margin: 0 auto;
 }
 
 h1 {
@@ -114,7 +117,6 @@ header nav ul li.active.sub-menu:before {
 	font-family: fontAwesome;
 	line-height: 37px;
 	overflow-x: hidden;
-
 }
 
 header nav ul li ul {
@@ -127,6 +129,10 @@ header nav ul li ul {
 
 header nav ul li.active ul {
 	display: block;
+}
+
+ul.nav-links.nav-active {
+  z-index: 9999999;
 }
 
 header nav ul li ul li {
@@ -142,6 +148,13 @@ header nav ul li ul li {
 	color: #000000;
 	text-decoration: none;
 	font-size: 20px;
+	transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+	color: grey;
+	font-size: 24px;
+	transition: 0.2s ease;
 }
 
 .burger {
@@ -153,7 +166,7 @@ header nav ul li ul li {
 	height: 3px;
 	background-color: #000000;
 	margin: 6px;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease;
 }
 
 /* NAV MEDIA QUERIES */
@@ -243,33 +256,61 @@ header nav ul li ul li {
 /* END NAV */
 
 
+.main-info {
+	padding: 2rem;
+}
+
+.button-holder {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+/* -------- BUTTONS -------- */
 
 button {
 	font-family: 'Signika', sans-serif;
 	color: white;
 	font-size: 20px;
-	background: black;
-	padding: 20px;
-	width: 100%;
-	margin: 0.3em 0;
 	border-radius: 10px;
+	padding: 16px;
+  width: 300px;
+  margin: 0.3em;
+	transition: 0.3s ease;
 }
 
 .red-btn {
 	background: #d7242e;
 }
 
+.orange-btn {
+	background: #f59730;
+}
+
+button:hover {
+	background: #000000;
+	transition: 0.3s;
+}
+
+/* -------- BUTTONS -------- */
+
 
 .main-info p {
 	padding: 1em 0 3em 0;
 }
 
-.orange-btn {
-	background: #f59730;
+
+.heroimg {
+	height: 500px;
 }
+
 
 table {
 	width: 100%;
+}
+
+.main-camps {
+	padding: 2rem;
 }
 
 
@@ -278,8 +319,16 @@ table {
 	padding-top: 15px;
 }
 
-.main-camps .camp-date {
+.camp-date {
 	padding-left: 50px;
+}
+
+.jokes {
+	padding: 2rem;
+}
+
+.contact {
+	padding: 2rem;
 }
 
 footer {
