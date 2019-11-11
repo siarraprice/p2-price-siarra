@@ -149,8 +149,10 @@ nav li {
 }
 
 nav a:hover {
-  color: black;
-  font-size: 20px;
+	background: -webkit-linear-gradient(#f8ea3a, #f59730);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 20px;
   transition: all ease .3s;
 }
 
