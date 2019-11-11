@@ -262,7 +262,7 @@ ul.nav-links.nav-active{
 .button-holder {
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 2rem;
+	padding: 1rem 0 2rem 0;
 }
 
 .camps-button-holder {
