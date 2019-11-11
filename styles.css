@@ -116,7 +116,7 @@ header {
   font-weight: bold;
   font-size: 18px;
   margin: 0.7em;
-  transition: .3s;
+  transition: all ease .3s;
 }
 
 .nav-links li{
@@ -205,6 +205,11 @@ nav a:hover {
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+ul.nav-links.nav-active{
+	transition: transform 0.5s ease-in 0s;
+	z-index: 9999;
 }
 
 
