@@ -271,10 +271,6 @@ article {
 }
 
 
-.heroimg {
-	height: 500px;
-}
-
 /* -------- BUTTONS -------- */
 
 .button-holder {
@@ -324,8 +320,29 @@ button:hover {
 /* -------- END BUTTONS -------- */
 
 
+/* --------- HOMEPAGE HERO IMAGES ------- */
+.heroimg {
+	height: 440px;
+}
+
+#hero1 {
+	background-image: url(images/image1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero2 {
+	background-image: url(images/image2.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 
+
+
+/* --------- END HOMEPAGE HERO IMAGES ------- */
 
 
 /* --------- CAMPS TABLE ------- */
@@ -497,6 +514,12 @@ footer {
 }
 .social img {
 height: 40px;
+transition: .5s ease;
+}
+
+.social img:hover {
+	height: 43px;
+	transition: .3s ease;
 }
 
 .footer-contact-1, .footer-contact-2 {

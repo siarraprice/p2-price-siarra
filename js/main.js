@@ -18,6 +18,7 @@ window.onclick = function(e) {
 
 
 
+
 //read more functionality
 function camp1() {
   var dots = document.getElementById("dots1");
@@ -116,15 +117,3 @@ function camp6() {
     moreText.style.display = "inline";
   }
 }
-
-
-
-
-
-
-
-
-//backstretch images
-$("#hero1").backstretch("images/image1.png");
-
-$("#hero2").backstretch("images/image2.png");
