@@ -64,6 +64,12 @@ h4 {
 	color: #0b93d1;
 }
 
+h5 {
+	font-size: 21px;
+	font-family: 'Signika', sans-serif;
+	max-width: 980px;
+	color: white;
+}
 
 /* --------- NAV ----------- */
 
@@ -437,6 +443,54 @@ h6 {
 
 
 
+/* ------  FAQ ACCORDION ------*/
+
+#accordion {
+  width: 95%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+  #accordion {
+    width: 60%;
+  }
+}
+
+.accordion-headers {
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	background-color: #f59730;
+	margin: 10px auto;
+	color: white;
+	padding: 15px 20px;
+	justify-content: space-between;
+}
+
+.toggle-indicator {
+  font-size: 40px;
+}
+
+.accordion-description {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  opacity: 100;
+  transition: 0.8s;
+	padding: 0px 20px;
+
+}
+
+.accordion-open {
+  max-height: 500PX;
+  padding: 5px 20px;
+  transition: 0.8s;
+}
+
+
+
+/* ------ END FAQ ACCORDION ------*/
 
 
 
