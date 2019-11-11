@@ -261,17 +261,17 @@ article {
 	  }
 	}
 
-.main-info {
+.main-info h1 {
 	padding: 2rem;
 }
 
 
 .main-info p {
-	padding: 1em 0 3em 0;
+	padding: 1rem 2rem 3rem 2rem;
 }
 
 
-/* -------- BUTTONS -------- */
+/* -------- HOMEPAGE BUTTONS -------- */
 
 .button-holder {
 	margin: 0 auto;
@@ -305,11 +305,6 @@ button {
 	background: #f59730;
 }
 
-.camp-btn {
-	margin: 0 auto;
-	background: #0b93d1;
-	width: 150px;
-}
 
 button:hover {
 	background: #000000;
@@ -317,10 +312,10 @@ button:hover {
 }
 
 
-/* -------- END BUTTONS -------- */
+/* -------- END HOMEPAGE BUTTONS -------- */
 
 
-/* --------- HOMEPAGE HERO IMAGES ------- */
+/* ---------  HERO IMAGES ------- */
 .heroimg {
 	height: 440px;
 }
@@ -339,10 +334,55 @@ button:hover {
 	background-size: cover;
 }
 
+.campheroimg {
+	height: 340px;
+}
+
+#hero3 {
+	background-image: url(images/image4.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero4 {
+	background-image: url(images/image6.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero5 {
+	background-image: url(images/image12.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero6 {
+	background-image: url(images/image14.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 
+#hero7 {
+	background-image: url(images/image13.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-/* --------- END HOMEPAGE HERO IMAGES ------- */
+#hero8 {
+	background-image: url(images/image11.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* --------- END  HERO IMAGES ------- */
 
 
 /* --------- CAMPS TABLE ------- */
@@ -379,7 +419,7 @@ table {
 
 
 .jokes {
-	padding: 2rem;
+	padding: 6rem 2rem;
 	background: #f8ea3a;
 }
 
@@ -495,6 +535,14 @@ fieldset {
 
 #more1, #more2, #more3, #more4, #more5, #more6 {
 	display: none;
+}
+
+
+.camp-btn {
+	margin: 0 auto;
+	background: #0b93d1;
+	width: 150px;
+	margin-bottom: 50px;
 }
 
 
